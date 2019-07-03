@@ -4,7 +4,7 @@ A Homebrew tap repository for topinfra-maven-dist
 
 ### Install topinfra-maven
 
-`curl -sSL https://github.com/ci-and-cd/homebrew-topinfra/raw/master/install-topinfra_maven | bash -s`
+`curl -sSL https://github.com/ci-and-cd/homebrew-topinfra/raw/master/install-topinfra_maven.sh | bash -s`
 
 Or
 
@@ -33,6 +33,7 @@ cp -r Formula /usr/local/Homebrew/Library/Taps/ci-and-cd/homebrew-topinfra/
 HOMEBREW_NO_AUTO_UPDATE=1 brew install --verbose --debug ci-and-cd/topinfra/topinfra-maven
 ```
 
+Restore local tap repository: `git -C /usr/local/Homebrew/Library/Taps/ci-and-cd/homebrew-topinfra checkout -- .`
 
 
 To install specific version of a formula, see 
