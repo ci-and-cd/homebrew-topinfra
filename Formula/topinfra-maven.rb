@@ -1,9 +1,9 @@
 class TopinfraMaven < Formula
   desc "Java-based project management"
   homepage "https://github.com/ci-and-cd/topinfra-maven/"
-  url "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190703.071528-2.zip"
-  mirror "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190703.071528-2.zip"
-  sha256 "594377d48e7ac7f00a5a99a580341069ac098d277db820727d5c96201868e2ef"
+  url "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190703.195646-4.zip"
+  mirror "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190703.195646-4.zip"
+  sha256 "b512e49529517a639025d77877df0b091b7ae49098468104a6d145ef8e8160ad"
   # curl -sSL url | sha256sum
   # see:
   # https://issues.apache.org/jira/browse/MINSTALL-138
