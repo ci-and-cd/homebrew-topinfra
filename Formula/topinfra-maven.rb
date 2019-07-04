@@ -1,10 +1,11 @@
 class TopinfraMaven < Formula
   desc "Java-based project management"
   homepage "https://github.com/ci-and-cd/topinfra-maven/"
-  url "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190703.195646-4.zip"
-  mirror "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190703.195646-4.zip"
-  sha256 "b512e49529517a639025d77877df0b091b7ae49098468104a6d145ef8e8160ad"
+  url "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190704.051534-5.zip"
+  mirror "https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190704.051534-5.zip"
+  sha256 "a5244958b9fc04fb68ae1cd5a4fdabe7d90e628c6be22870fb083ea0710bf958"
   # curl -sSL url | sha256sum
+  # SHA256 or SHA512 are not supported by maven-install-plugin or nexus maven repository currently.
   # see:
   # https://issues.apache.org/jira/browse/MINSTALL-138
   # https://issues.sonatype.org/browse/MVNCENTRAL-2859
