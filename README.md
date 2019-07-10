@@ -47,7 +47,7 @@ cp -r ${MAVEN_HOME}/repository/* $(${MAVEN_HOME}/bin/mvn help:evaluate -Dexpress
 
 ```bash
 #cd ${PROJECT_BASEDIR}
-mvn -N io.takari:maven:0.7.7-SNAPSHOT:wrapper -DdistributionUrl=https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190709.080850-29.zip
+mvn -N io.takari:maven:0.7.7-SNAPSHOT:wrapper -DdistributionUrl=https://oss.sonatype.org/content/repositories/snapshots/top/infra/maven/topinfra-maven-dist/0.0.1-SNAPSHOT/topinfra-maven-dist-0.0.1-20190710.085622-33.zip
 ```
 
 
