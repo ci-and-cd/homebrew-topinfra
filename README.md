@@ -47,7 +47,7 @@ cp -r ${MAVEN_HOME}/repository/* $(${MAVEN_HOME}/bin/mvn help:evaluate -Dexpress
 
 ```bash
 #cd ${PROJECT_BASEDIR}
-mvn -N io.takari:maven:0.7.7-SNAPSHOT:wrapper -DdistributionUrl=https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.0/topinfra-maven-dist-1.0.0.zip
+mvn -N io.takari:maven:0.7.7-SNAPSHOT:wrapper -DdistributionUrl=https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.1/topinfra-maven-dist-1.0.1.zip
 ```
 
 

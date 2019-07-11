@@ -1,9 +1,9 @@
 class TopinfraMaven < Formula
   desc "Java-based project management"
   homepage "https://github.com/ci-and-cd/topinfra-maven/"
-  url "https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.0/topinfra-maven-dist-1.0.0.zip"
-  mirror "https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.0/topinfra-maven-dist-1.0.0.zip"
-  sha256 "1358754ae2d624ac8204499bacd6fc12abdf6973329cfda278141bd406512e1d"
+  url "https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.1/topinfra-maven-dist-1.0.1.zip"
+  mirror "https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.1/topinfra-maven-dist-1.0.1.zip"
+  sha256 "3d18dc913b8255a6301357498cb52d82d31b74ab5cc22aaf370e061f08424b44"
   # curl -sSL url | sha256sum
   # SHA256 or SHA512 are not supported by maven-install-plugin or nexus maven repository currently.
   # see:
