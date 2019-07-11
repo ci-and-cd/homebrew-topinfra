@@ -14,7 +14,7 @@ function install_topinfra_maven_on_darwin() {
 # install topinfra-maven
 function install_topinfra_maven_into_existing_maven() {
     MAVEN_HOME=$(mvn help:evaluate -Dexpression=maven.home -q -DforceStdout);
-    #shaded_jar_url="https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.2/topinfra-maven-dist-1.0.2-shaded.jar";
+    #shaded_jar_url="https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.3/topinfra-maven-dist-1.0.3-shaded.jar";
     shaded_jar_url=$(curl -fsSL https://github.com/ci-and-cd/homebrew-topinfra/raw/master/Formula/topinfra-maven.rb | grep -E '\s+url\s+"[^"]+"' | sed -E 's#\s*url "(.+).zip"#\1-shaded.jar#');
     curl -fsSL -o ${MAVEN_HOME}/lib/topinfra-maven-dist-shaded.jar ${shaded_jar_url};
     curl -fsSL -o ${MAVEN_HOME}/conf/settings.xml https://github.com/ci-and-cd/topinfra-maven/raw/develop/topinfra-maven-dist/src/main/assembly/settings.xml;
