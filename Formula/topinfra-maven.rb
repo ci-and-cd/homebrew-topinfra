@@ -9,7 +9,7 @@ class TopinfraMaven < Formula
   # see:
   # https://issues.apache.org/jira/browse/MINSTALL-138
   # https://issues.sonatype.org/browse/MVNCENTRAL-2859
-  version "1.0.6"
+  version "1.0.7"
 
   bottle :unneeded
 
