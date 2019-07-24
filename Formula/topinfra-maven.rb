@@ -1,15 +1,15 @@
 class TopinfraMaven < Formula
   desc "Java-based project management"
   homepage "https://github.com/ci-and-cd/topinfra-maven/"
-  url "https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.0.8/topinfra-maven-dist-1.0.8.zip"
-  # mirror "https://nexus3.infra.top/nexus/repository/maven-releases/top/infra/maven/topinfra-maven-dist/1.0.8/topinfra-maven-dist-1.0.8.zip"
-  sha256 "f69b63bfaee6a339539ae93fabb02efba371bafd1909c0f6f18cec96fec8f731"
+  url "https://repo1.maven.org/maven2/top/infra/maven/topinfra-maven-dist/1.1.0/topinfra-maven-dist-1.1.0.zip"
+  #mirror "https://nexus3.infra.top/nexus/repository/maven-releases/top/infra/maven/topinfra-maven-dist/1.1.0/topinfra-maven-dist-1.1.0.zip"
+  sha256 "b36799c7812267c70ef51c76f5e7223e02501594280f13f5ba8b2e0f0e4d710f"
   # curl -sSL url | sha256sum
   # SHA256 or SHA512 are not supported by maven-install-plugin or nexus maven repository currently.
   # see:
   # https://issues.apache.org/jira/browse/MINSTALL-138
   # https://issues.sonatype.org/browse/MVNCENTRAL-2859
-  version "1.0.8"
+  version "1.1.0"
 
   bottle :unneeded
 
